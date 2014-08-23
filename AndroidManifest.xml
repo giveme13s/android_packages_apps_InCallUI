@@ -39,7 +39,4 @@
                 <action android:name="com.android.incallui.ACTION_ANSWER_ICOMING_CALL" />
             </intent-filter>
         </receiver>
-
-    </application>
 </manifest>
-

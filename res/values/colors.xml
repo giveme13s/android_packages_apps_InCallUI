@@ -66,4 +66,8 @@
     <color name="separator_background_color">#888888</color>
     <color name="button_color">#000000</color>
 
+    <!-- Color of recording progrss timer -->
+    <color name="recording_progress_text_color">#f22121</color>
+    <color name="recording_progress_background">#40000000</color>
+
 </resources>

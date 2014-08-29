@@ -580,4 +580,8 @@
     <string name="dialpad_star_letters"></string>
     <!--  Do not translate. -->
     <string name="dialpad_pound_letters"></string>
+
+    <!-- Text for in call recording action -->
+    <string name="onscreenRecordText">Start/stop recording</string>
+    <string name="call_recording_failed_message">Failed to start call recording</string>
 </resources>

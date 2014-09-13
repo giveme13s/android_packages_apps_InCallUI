@@ -177,4 +177,18 @@
     <string name="dialpad_7_number" msgid="277455349526398354">"7"</string>
     <string name="dialpad_8_number" msgid="4764964930466503513">"8"</string>
     <string name="dialpad_9_number" msgid="4023642800448238950">"9"</string>
+
+    <!-- Text for the onscreen "Blacklist" button -->
+    <string name="onscreenBlacklistText">Liste Noire</string>
+
+    <!-- Blacklist confirmation dialog -->
+    <string name="blacklist_dialog_title">Ajouter à la Liste Noire</string>
+    <string name="blacklist_dialog_message">Les futurs appels de <xliff:g id="number">%s</xliff:g> seront bloqués</string>
+
+    <!-- Description label for answering a call on speakerphone -->
+    <string name="description_target_speaker">Réponse sur haut-parleur</string>
+
+    <!-- Description of the down direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_down">Faites glisser votre doigt vers le bas pour <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+
 </resources>

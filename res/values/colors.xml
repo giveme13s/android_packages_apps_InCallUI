@@ -61,4 +61,9 @@
 
     <!-- Translucent shadow color -->
     <color name="translucent_shadow">#33999999</color>
+
+    <color name="contact_name_color">#333333</color>
+    <color name="separator_background_color">#888888</color>
+    <color name="button_color">#000000</color>
+
 </resources>

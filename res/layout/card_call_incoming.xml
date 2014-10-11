@@ -35,7 +35,7 @@
             android:ellipsize="marquee"
             android:gravity="center_vertical"
             android:lines="1"
-            android:textColor="#333333"
+            android:textColor="@color/contact_name_color"
             android:layout_above="@+id/linearLayout"
             android:textSize="24sp" />
 
@@ -57,7 +57,7 @@
                 style="@android:style/Widget.Holo.Button.Borderless"
                 android:drawableLeft="@drawable/ic_lockscreen_decline_normal"
                 android:text="@string/description_target_decline"
-                android:textColor="#000000"
+                android:textColor="@color/button_color"
                 android:textSize="13sp"
                 android:ellipsize="none" />
 
@@ -67,7 +67,7 @@
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
-                android:background="#888888"
+                android:background="@color/separator_background_color"
                 android:maxWidth="0dp" />
 
             <Button
@@ -78,7 +78,7 @@
                 style="@android:style/Widget.Holo.Button.Borderless"
                 android:drawableLeft="@drawable/ic_lockscreen_answer_normal"
                 android:text="@string/description_target_answer"
-                android:textColor="#000000"
+                android:textColor="@color/button_color"
                 android:textSize="13sp"
                 android:ellipsize="none" />
         </LinearLayout>

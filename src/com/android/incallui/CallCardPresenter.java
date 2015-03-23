@@ -552,7 +552,7 @@ public class CallCardPresenter extends Presenter<CallCardPresenter.CallCardUi>
         return number;
     }
 
-    private boolean isCDMAPhone(long subscription) {
+    private boolean isCDMAPhone(int subscription) {
         boolean isCDMA = false;
         int phoneType = TelephonyManager.getDefault().isMultiSimEnabled()
                 ? TelephonyManager.getDefault().getCurrentPhoneType(subscription)
@@ -563,7 +563,7 @@ public class CallCardPresenter extends Presenter<CallCardPresenter.CallCardUi>
         return isCDMA;
     }
 
-    private boolean isRoaming(long subscription) {
+    private boolean isRoaming(int subscription) {
         if (TelephonyManager.getDefault().isMultiSimEnabled()) {
             return TelephonyManager.getDefault().isNetworkRoaming(subscription);
         } else {
@@ -823,7 +823,7 @@ public class CallCardPresenter extends Presenter<CallCardPresenter.CallCardUi>
         boolean isManageConferenceVisible();
     }
 
-    public long getActiveSubscription() {
+    public int getActiveSubscription() {
         return SubscriptionManager.getDefaultSubId();
     }
 }

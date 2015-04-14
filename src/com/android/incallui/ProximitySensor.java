@@ -62,7 +62,6 @@ public class ProximitySensor implements AccelerometerListener.OrientationListene
     private boolean mDialpadVisible;
     private Context mContext;
 
-    private Context mContext;
     private final Handler mHandler = new Handler();
     private final Runnable mRunnable = new Runnable() {
         @Override

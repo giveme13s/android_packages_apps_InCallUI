@@ -632,4 +632,20 @@
     <!-- Normal call UI will be shown for the emergency call
         for the numbers which is mentioned in mask_emergency_number-->
     <string name="mask_emergency_number"></string>
+
+    <!-- Text for the onscreen "Blacklist" button -->
+    <string name="onscreenBlacklistText">Blocked caller list</string>
+
+    <!-- Blacklist confirmation dialog -->
+    <string name="blacklist_dialog_title">Add to blocked caller list</string>
+    <string name="blacklist_dialog_message">Future calls from <xliff:g id="number">%s</xliff:g> will be blocked</string>
+
+    <string name="onscreenCallRecordText">Start and stop call recording</string>
+    <string name="onscreenAddToBlacklistText">Add caller to blocked caller list</string>
+    <string name="menu_start_record">Record call</string>
+    <string name="menu_stop_record">Stop recording</string>
+    <string name="recording_time_text">Recording</string>
+    <string name="recording_warning_title">Enable call recording?</string>
+    <string name="recording_warning_text">Notice: You are responsible for compliance with any laws, regulations and rules that apply to the use of call recording functionality and the use or distribution of those recordings.</string>
+
 </resources>
